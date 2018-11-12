@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=VT323|Libre+Barcode+39+Extended+Text" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <title>Bootstrap-Fixie</title>
+        <style type="text/css">
+  body {
+    background: rgb(190, 89, 216);
+    background: -moz-linear-gradient(90deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+    background: -o-linear-gradient(90deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+    background: -ms-linear-gradient(90deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+    background: linear-gradient(0deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+}
+.jumbotron {
+    background: #5a8cfa;
+}
+h2, h3 {
+    font-family: cursive;
+}
+nav {
+    font-family: 'VT323', monospace;
+    background-color: #555;
+}
+.my-2{
+    color: rgb(107, 146, 168);
+}
+.hero {
+    opacity: 0.85;
+}
+img {
+    padding: 5px;
+}
+p.text {
+    text-transform: lowercase;
+    font-family: 'VT323', monospace;
+    font-size: 14pt;
+}
+a: hover {
+    text-decoration: none;
+    background: #be59d8;
+}
+.graphics {
+    padding: 5px;
+    display: flex;
+    text-align: center;                
+}
+.gifs {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.heading {
+    width: 100%;
+    background: #5efff6;
+    padding: 15px 30px;
+    margin: 15px;
+}
+.visuals {
+    padding: 15px;
+    /* display: block; */
+    width: 50%;
+}
+.artists {
+    width: 50%;
+}
+.bottom {
+    display: flex;
+    padding: 20px;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    opacity: 0.7;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.hero a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+}
+.container a:hover {
+    background-color: black;
+    text-decoration: none;
+    background: rgb(190, 89, 216);
+    background: -moz-linear-gradient(30deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+    background: -webkit-linear-gradient(30deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+    background: -o-linear-gradient(30deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+    background: -ms-linear-gradient(30deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+    background: linear-gradient(120deg, rgb(190, 89, 216) 30%, rgb(90, 140, 250) 70%);
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"><img src="images/bootstrapicon.png" alt="" width=50px></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>              
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Bike Life<span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Fixie Bikes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Must Haves</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Safety Tips</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fixie Lifestyle</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Community</a>
+                        <a class="dropdown-item" href="#">Bike tricks</a>
+                        <a class="dropdown-item" href="#">Races/ Velodrom</a>
+                    </div>
+                </li>
+            </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+        </div>
+    </nav>
+        <div class="container">
+        <div class="jumbotron">
+                <h1 class="display-4">Why Ride A Fixed Gear</h1>
+                <p class="lead" align="right">Do you want to get rid of the need to drive a car?</p>
+                <hr class="my-4">
+                <p align="center">A BRIEF INTRODUCTION</p>
+        </div>
+        <div class="graphics"> 
+            <div><img class="img-fluid" src="images/bianchi.jpg" alt="windows 95 display" height=300px></div>
+            <div><img class="img-fluid" src="images/nelle-throne.jpg" alt="windows 95 display" height=300px></div>
+            <div><img class="img-fluid" src="images/throne-beach.jpg" alt="windows 95 display" height=300px></div>
+        </div>
+        <div class="content">
+            <p class="text">Fixed gear. You and the bike are one, brain gives way to cog, crank arms are mere extensions of your legs and vice-versa. You are a cycling cyborg, part human, part machine, unsure where the steel ends and the flesh begins. Only the smile on your face reveals the human. Riding a fixed gear bike is special. This much you’ll discover the first time you ride fixed and stop pedalling.<br>The best things in life are the simplest. Extravagance is an absurdity best left to those vainly searching for happiness at the bottom of their wallet. Silence. Starlight. Sunrise. The sea. The touch of a loved one. The smile of a stranger. A Bob Dylan lyric. A cup of coffee. Bubble wrap. A shed. Single speed bikes. One cog, one gear, many cadences.</p>
+                    
+            <p class="text">Riding a fixed gear bike is cycling in its purest, simplest form. Reducing life to its essential elements reminds you what it is to be human. Cooking with fire. Being naked. Although not necessarily at the same time. The less we have, the less we stand to lose and the less we can be distracted. Riding fixed, dérailleurs cannot break and gears cannot slip.</p>
+        </div>
+        <div class="gifs">
+            <img src="images/throne-graffite-venice.jpg" alt="throne bicyle at Venice beach" class="img-fluid" height=300px width=400px>
+            <img src="images/golden-gate-bridge3girls-weekend.jpg" alt="four woman with bikes at the Glden Gate bridge" class="img-fluid" height=300px width=400px>
+        </div>
+        <div class="content">
+            <p class="text">First, let’s avoid any confusion. Not all single speed bikes are fixed gear bikes. A single speed bike can either have a fixed gear or a freewheel i.e. you can roll without pedalling. A fixed gear bike is a single speed on which you must always pedal. Why should you care? You shouldn’t, unless you’re about to ride 100 miles and have a choice between the two!</p>
+            <p class="text">What about a track bike, what’s that all about then? A track bike is a fixed gear bike. Simple. Or is it? Track bikes must meet stringent regulations to actually be ridden on a track. This includes a high bottom bracket clearance and a short crank arm length enabling you to negotiate the banked curves of the track without striking the pedal.</p>
+            <p class="text">More importantly, a track bike cannot have brakes if used for its intended purpose. Brakes on a track are considered dangerous when everybody else is riding brakeless. If you want brakes on a track bike you better come equipped with a drill. Finally the geometry of the frame is engineered for the pure speed of the track so a track bike will ride a little harsher on the road and a shorter wheelbase means potential toe overlap on the front wheel</p>
+        </div>
+        <div class="heading">
+            <h1> m o r e . . </h1>
+        </div>
+        <div class="bottom">
+            <div class="visuals col-lg-6 col-sm-8">
+                <h2>visuals</h2>
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/w-ZJeCPvlq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+                <div class="artists col-lg-6 col-sm-4">
+                    <h3>popular fixed gear bikes</h3>
+                    <ul>
+                        <li>Bianchi</li>
+                        <li>Cinelli</li>
+                        <li>Aventon</li>
+                        <li>Throne</li>
+                        <li>BMC Trackmachine 02</li>
+                        <li>Don Walker Cycles Katana</li>
+                        <li>All-City Big Block</li>
+                        <li>Tribe Mess 001</li>
+                        <li>Cannondale</li>
+                        <li>Low</li>
+                        <li>Sol`e</li>                            <li>Linus</li>
+                    </ul>
+                </div>
+        </div>      
+        <div class="hero">
+            <img class="img-fluid" src="images/hands.jpg" alt="neon lights" width=90%>
+                <a href="#">Customize your Bike</a>
+        </div>
+        <!-- jQuery library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        </div>
+    </body>
+    </html>
